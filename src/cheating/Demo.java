@@ -22,7 +22,7 @@ public class Demo {
 		driver.findElement(By.linkText("Open a popup window")).click();
 		driver.findElement(By.linkText("Blogger")).click();
 
-
+System.out.println("Updated code is pushing to rbranch");
 	Set<String> windows = driver.getWindowHandles();
 		
 	Iterator<String> itr = windows.iterator();
