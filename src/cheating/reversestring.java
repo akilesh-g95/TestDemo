@@ -11,7 +11,7 @@ public class reversestring {
 		String normalstring = sc.nextLine();
 		sc.close();
 	char[] ch = normalstring.toCharArray();
-
+System.out.println("hello word");
 	String rev = "" ;
 	
 	for(int i = ch.length-1; i>=0; i--) {
